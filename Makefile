@@ -10,7 +10,7 @@ home-install: install
 	echo "# If you want to use the system wide version" >> ~/.zdeck
 	echo "# delete this file." >> ~/.zdeck
 	echo "" >> ~/.zdeck
-	echo "ZDECK_HOME = ~/.local/share/zdeck" > ~/.zdeck
+	echo "ZDECK_HOME=~/.local/share/zdeck" > ~/.zdeck
 
 install:
 	mkdir -p $(install-dir)/share/zdeck/
